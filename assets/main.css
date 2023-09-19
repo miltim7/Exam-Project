@@ -1,0 +1,89 @@
+@import url(variables.css);
+
+.main-green-zone {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 338px;
+    background-color: #9acd32;
+    color: #adff2f;
+    text-align: center;
+    padding-top: 115px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+h1  {
+    font-size: 63px;
+    font-weight: 100;
+}
+
+.main-green-zone p {
+    font-size: 21px;
+    font-weight: 200;
+    margin-top: -22px;
+    line-height: 1.5em;
+}
+
+.main-green-zone a {
+    width: 106px;
+    margin: auto;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 6px 9px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #2e6da4;
+    border-radius: 4px;
+    margin-top: -18px;
+}
+
+.main-green-zone a:hover {
+    background-color: #2a6599;
+}
+
+@media screen and (max-width: 990px) {
+    .main-green-zone {
+        height: 369px;
+        padding-left: 11vw;
+        padding-right: 11vw;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    h1 {
+        font-size: 36px;
+    }
+    .main-green-zone {
+        padding-top: 100px;
+        height: 304px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .main-green-zone {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .main-green-zone {
+        height: 333.5px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
+
+@media screen and (max-width: 369px) {
+    .main-green-zone {
+        height: 372.5px;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .main-green-zone {
+        height: 402px;
+    }
+}
