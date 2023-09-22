@@ -1,5 +1,11 @@
 @import url(variables.css);
 
+/* Green Zone */
+
+main {
+    grid-area: main;
+}
+
 .main-green-zone {
     display: flex;
     flex-direction: column;
@@ -85,5 +91,151 @@ h1  {
 @media screen and (max-width: 337px) {
     .main-green-zone {
         height: 402px;
+    }
+}
+
+/* White Zone */
+
+.main-white-zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-bottom: 30px;
+}
+
+.divs700x300 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.div700x300 {
+    width: var(--ramka-width);
+    height: var(--ramka-height);
+    background-color: #ededed;
+    border-radius: 6px;
+}
+
+.div700x300 p {
+    line-height: var(--ramka-height);
+    font-weight: bold;
+    color: #ababab;
+    font-size: 25px;
+}
+
+.description700x300 {
+    width: var(--ramka-width);
+    color: #959595;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.divs700x300 a:nth-child(2) {
+    color: #337ab7;
+    font-size: 24px;
+    margin-top: 19px;
+    margin-bottom: 9px;
+    width: var(--ramka-width);
+}
+
+.divs700x300 a:nth-child(2):hover {
+    text-decoration: underline;
+    color: #004788;
+}
+
+.divs700x300 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-white-zone h2 {
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.main-white-zone h2 span {
+    font-size: 65%;
+    font-weight: 400;
+    line-height: 1;
+    color: #777;
+}
+
+.w-zone-p1 {
+    color: #959595;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1500px) {
+    .main-white-zone {
+        padding-right: 0vw;
+        padding-left: 0vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    :root {
+        --ramka-width: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    :root {
+        --ramka-width: 260px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    :root {
+        --ramka-width: 250px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .divs700x300 {
+        flex-direction: column;
+    }
+
+    .main-white-zone {
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+
+    :root {
+        --ramka-width: 700px
+    }
+}
+
+@media screen and (max-width: 760px) {
+    :root {
+        --ramka-width: 550px
+    }
+}
+
+@media screen and (max-width: 700px) {
+    :root {
+        --ramka-width: 500px
+    }
+}
+
+@media screen and (max-width: 560px) {
+    :root {
+        --ramka-width: 400px
+    }
+}
+
+@media screen and (max-width: 420px) {
+    :root {
+        --ramka-width: 250px
     }
 }

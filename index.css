@@ -4,3 +4,15 @@
 @import url(assets/header.css);
 @import url(assets/main.css);
 @import url(assets/footer.css);
+
+.main-div {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
+
+body {
+    overflow-x: hidden;
+}
