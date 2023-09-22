@@ -68,18 +68,10 @@ h1  {
     gap: 30px;
 }
 
-.div700x300 {
+img {
     width: var(--ramka-width);
     height: var(--ramka-height);
-    background-color: #ededed;
     border-radius: 6px;
-}
-
-.div700x300 p {
-    line-height: var(--ramka-height);
-    font-weight: bold;
-    color: #ababab;
-    font-size: 25px;
 }
 
 .description700x300 {
@@ -123,6 +115,7 @@ h1  {
 }
 
 .w-zone-p1 {
+    width: calc(var(--ramka-width) * 3 + 90px);
     color: #959595;
     text-align: center;
     font-size: 14px;
@@ -257,9 +250,13 @@ h1  {
         flex-direction: column;
     }
 
+    .w-zone-p1 {
+        width: var(--ramka-width);
+    }
+
     .main-white-zone {
-        padding-right: 2vw;
-        padding-left: 2vw;
+        padding-right: 3vw;
+        padding-left: 3vw;
     }
 
     .main-orange-zone {
@@ -304,21 +301,17 @@ h1  {
     }
 
     :root {
-        --ramka-width: 550px
+        --ramka-width: 550px;
     }
 }
 
 @media screen and (max-width: 700px) {
     :root {
-        --ramka-width: 500px
+        --ramka-width: vw;
     }
 }
 
 @media screen and (max-width: 560px) {
-    :root {
-        --ramka-width: 400px
-    }
-
     .main-green-zone {
         padding-left: 2vw;
         padding-right: 2vw;
@@ -330,12 +323,6 @@ h1  {
         height: 333.5px;
         padding-left: 5vw;
         padding-right: 5vw;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    :root {
-        --ramka-width: 250px
     }
 }
 
