@@ -68,10 +68,18 @@ h1  {
     gap: 30px;
 }
 
-img {
+.div700x300 {
     width: var(--ramka-width);
     height: var(--ramka-height);
+    background-color: #ededed;
     border-radius: 6px;
+}
+
+.div700x300 p {
+    line-height: var(--ramka-height);
+    font-weight: bold;
+    color: #ababab;
+    font-size: 25px;
 }
 
 .description700x300 {
