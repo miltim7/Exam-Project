@@ -1,5 +1,5 @@
+@import url(variables/main-variables.css);
 @import url(variables/colors.css);
-@import url(variables/sizes.css);
 
 /* Green Zone */
 
@@ -35,8 +35,9 @@ h1  {
 .main-green-zone a {
     width: 106px;
     margin: auto;
-    color: #ffffff;
+    color: #fff;
     background-color: var(--link-color);
+    border-color: #2e6da4;
     padding: 6px 9px;
     font-size: 14px;
     line-height: 1.42857143;
@@ -69,22 +70,22 @@ h1  {
 }
 
 .div700x300 {
-    width: var( --main-wz-frame-width);
-    height: var( --main-wz-frame-height);
-    background-color: var(--main-wz-frame-bgcolor);
+    width: var(--ramka-width);
+    height: var(--ramka-height);
+    background-color: #ededed;
     border-radius: 6px;
 }
 
 .div700x300 p {
-    line-height: var(--main-wz-frame-height);
+    line-height: var(--ramka-height);
     font-weight: bold;
-    color: var(--main-wz-color);
+    color: #ababab;
     font-size: 25px;
 }
 
 .description700x300 {
-    width: var( --main-wz-frame-width);
-    color: var(--main-wz-color);
+    width: var(--ramka-width);
+    color: #959595;
     font-size: 14px;
     line-height: 1.5em;
 }
@@ -94,7 +95,7 @@ h1  {
     font-size: 24px;
     margin-top: 19px;
     margin-bottom: 9px;
-    width: var( --main-wz-frame-width);
+    width: var(--ramka-width);
 }
 
 .divs700x300 a:nth-child(2):hover {
@@ -119,11 +120,11 @@ h1  {
     font-size: 65%;
     font-weight: 400;
     line-height: 1;
-    color: #777777;
+    color: #777;
 }
 
 .w-zone-p1 {
-    width: calc(var( --main-wz-frame-width) * 3 + 90px);
+    width: calc(var(--ramka-width) * 3 + 90px);
     color: var(--main-wz-color);
     text-align: center;
     font-size: 14px;
@@ -199,7 +200,7 @@ h1  {
 
 .div100x100 p {
     font-weight: bold;
-    color: var(--main-oz-frame-color);
+    color: #ababab;
     font-size: 13px;
     line-height: 100px;
 }
@@ -214,7 +215,7 @@ h1  {
 
 @media screen and (max-width: 1200px) {
     :root {
-        --main-wz-frame-width: 300px;
+        --ramka-width: 300px;
     }
 
     .div-form p:nth-child(3),
@@ -225,7 +226,7 @@ h1  {
 
 @media screen and (max-width: 1000px) {
     :root {
-        --main-wz-frame-width: 260px;
+        --ramka-width: 260px;
     }
 
     .main-green-zone {
@@ -249,7 +250,7 @@ h1  {
 
 @media screen and (max-width: 900px) {
     :root {
-        --main-wz-frame-width: 250px;
+        --ramka-width: 250px;
     }
 }
 
@@ -259,7 +260,7 @@ h1  {
     }
 
     .w-zone-p1 {
-        width: var( --main-wz-frame-width);
+        width: var(--ramka-width);
     }
 
     .main-white-zone {
@@ -294,7 +295,7 @@ h1  {
     }
 
     :root {
-        --main-wz-frame-width: 700px
+        --ramka-width: 700px
     }
 }
 
@@ -309,13 +310,13 @@ h1  {
     }
 
     :root {
-        --main-wz-frame-width: 550px;
+        --ramka-width: 550px;
     }
 }
 
 @media screen and (max-width: 700px) {
     :root {
-        --main-wz-frame-width: vw;
+        --ramka-width: vw;
     }
 }
 
