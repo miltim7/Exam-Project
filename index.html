@@ -6,33 +6,32 @@
     <title>Final Project</title>
     <link rel="stylesheet" href="index.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="main-div">
         <header>
-            <div>
                 <a class="logo" href="#"><i class='bx bxs-hot bx-tada bx-rotate-90'></i>Logo</a>
+                
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar"><div class="bx bx-menu" id="menu-icon"></div></label>
+    
                 <nav>
-                    <ul class="page-navigation-links">
-                        <li><a class="now-page-link page-link" href="#">Home</a></li>
-                        <li><a class="page-link" href="#">About</a></li>
-                        <li><a class="page-link" href="#">Products</a></li>
-                        <li>
-                            <a class="services page-link" href="#">Services <span class="caret"></span></a>
-                            <ul class="services-burger-menu">
+                    <ul>
+                        <li><a class="now-page-link" href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Services <span class="caret"></span></a>
+                            <ul class="submenu">
                                 <li><a href="#">Engage</a></li>
                                 <li><a href="#">Pontificate</a></li>
                                 <li><a href="#">Synergize</a></li>
                             </ul>
                         </li>
+                        <input type="search">
+                        <button>Search</button>
                     </ul>
                 </nav>
-            </div>
-            <div>
-                <input type="search">
-                <button>Search</button>
-            </div>
-            <div class="bx bx-menu" id="menu-icon"></div>
         </header>
     
         <main>
@@ -90,7 +89,7 @@
     
         <footer>
             <p class="footer-links"><a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a> | <a href="#"> Contact</a></p>
-            <p class="copyright">Copyright © Example.com 2015</p>
+            <p class="copyright">Copyright © Timur 2007</p>
         </footer>
     </div>
 </body>
