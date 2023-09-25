@@ -1,0 +1,24 @@
+:root {
+    --header-bgcolor: #222222;
+    --header-color: #959595;
+
+    --main-gz-bgcolor: #9acd32;
+    --main-gz-color: #adff2f;
+
+    --main-wz-bgcolor: #ffffff;
+    --main-wz-color: #959595;
+    --main-wz-frame-bgcolor: #ededed;
+
+    --main-oz-bgcolor: #daa520;
+    --main-oz-color: #000000;
+    --main-oz-frame-bgcolor: #ededed;
+    --main-oz-frame-color: #ababab;
+    --main-oz-button-color: #333333;
+
+    --footer-bgcolor: #ffffff;
+    --footer-color: #959595;
+
+    --link-color: #337ab7;
+
+    --dark-gray: #333333;
+}

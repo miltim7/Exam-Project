@@ -1,0 +1,12 @@
+:root {
+    --header-height: 50px;
+
+    --main-wz-frame-width: 360px;
+    --main-wz-frame-height: 300px;
+
+    --main-oz-frame-hwsize: 100px;
+
+    --footer-height: 120px;
+
+    --paragraph-fsize: 14px;
+}
